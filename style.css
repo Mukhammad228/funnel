@@ -6,12 +6,15 @@
 
 body{
     font-family: 'Gowun Dodum', sans-serif;
+    overflow-x: hidden;
 }
 
 .container{
     max-width: 1200px;
     margin: auto;
     padding: 10px 20px;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 .py-1{padding: 1rem 0;}
@@ -42,7 +45,7 @@ img{
 
 .bottom-line{
     border-bottom: 1px solid #babdbb;
-    width: 100%;
+    width: 80%;
 }
 
 /* Navbar */
